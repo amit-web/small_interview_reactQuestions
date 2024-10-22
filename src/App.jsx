@@ -1,5 +1,6 @@
 import "./App.css";
 import Corousel from "./components/corousel/Corousel";
+import DynamicCheckbox from "./components/DynamicCheckboxCounter/DynamicCheckbox";
 // import AboutUs from "./components/tabNavigation/AboutUs";
 // import Contact from "./components/tabNavigation/Contact";
 // import Home from "./components/tabNavigation/Home";
@@ -40,7 +41,6 @@ function App() {
   //          }
   //       ]
   //      },
-      
 
   // ])
   return (
@@ -57,9 +57,9 @@ function App() {
         {/* <RouterProvider router={router}>
             <RoutingExample/>
         </RouterProvider> */}
-        
-        <Corousel/>
-     
+        {/*         
+        <Corousel/> */}
+        <DynamicCheckbox />
       </div>
     </>
   );
