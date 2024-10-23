@@ -1,6 +1,8 @@
 import "./App.css";
 import Corousel from "./components/corousel/Corousel";
 import DynamicCheckbox from "./components/DynamicCheckboxCounter/DynamicCheckbox";
+import InfiniteVirtualizedList from "./components/VirtualizedList/InfiniteVirtualizedList";
+//import VirtualizedList from "./components/VirtualizedList/VirtualizedList";
 // import AboutUs from "./components/tabNavigation/AboutUs";
 // import Contact from "./components/tabNavigation/Contact";
 // import Home from "./components/tabNavigation/Home";
@@ -59,7 +61,9 @@ function App() {
         </RouterProvider> */}
         {/*         
         <Corousel/> */}
-        <DynamicCheckbox />
+        {/* <DynamicCheckbox /> */}
+        {/* <VirtualizedList/> */}
+        <InfiniteVirtualizedList/>
       </div>
     </>
   );
