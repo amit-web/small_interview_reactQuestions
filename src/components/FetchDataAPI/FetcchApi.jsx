@@ -3,7 +3,7 @@
 // Handle loading and error states while fetching the data.
 // Practice Focus: useEffect, API calls, error handling, conditional rendering.
 
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import ShowingData from "./ShowingData";
 
 const FetcchApi = () => {
